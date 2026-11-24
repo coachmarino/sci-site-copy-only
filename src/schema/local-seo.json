@@ -1,0 +1,214 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": [
+    "LocalBusiness",
+    "ProfessionalService"
+   ],
+   "@id": "https://southcoastinbound.com/#organization",
+   "name": "South Coast Inbound",
+   "alternateName": "South Coast Inbound Digital Marketing Agency",
+   "url": "https://southcoastinbound.com/",
+   "logo": "https://southcoastinbound.com/wp-content/uploads/2022/10/south-coast-inbound-logo.png",
+   "image": "https://southcoastinbound.com/wp-content/uploads/2026/08/josh-and-lucas-1-2-3.jpg",
+   "description": "Owner-led Southern New England digital marketing agency helping small and local businesses get customers through Local SEO, websites, Google Ads, social media and email marketing.",
+   "telephone": "+1-508-491-8420",
+   "email": "patrick@southcoastinbound.com",
+   "priceRange": "$",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "165 Hailes Hill Rd",
+    "addressLocality": "Swansea",
+    "addressRegion": "MA",
+    "postalCode": "02777",
+    "addressCountry": "US"
+   },
+   "openingHours": [
+    "Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00"
+   ],
+   "founder": {
+    "@id": "https://southcoastinbound.com/patrick-marino/#person"
+   },
+   "sameAs": [
+    "https://www.facebook.com/southcoastinbound/"
+   ],
+   "areaServed": [
+    {
+     "@type": "State",
+     "name": "Massachusetts"
+    },
+    {
+     "@type": "State",
+     "name": "Rhode Island"
+    },
+    {
+     "@type": "State",
+     "name": "Connecticut"
+    }
+   ],
+   "knowsAbout": [
+    "Local SEO",
+    "Search engine optimization",
+    "Google Business Profile optimization",
+    "Website design",
+    "Google Ads management",
+    "Google Local Service Ads",
+    "Social media marketing",
+    "Email marketing",
+    "AI search optimization"
+   ],
+   "department": [
+    {
+     "@id": "https://southcoastinbound.com/digital-marketing-agency-in-providence/#office"
+    }
+   ]
+  },
+  {
+   "@type": "Person",
+   "@id": "https://southcoastinbound.com/patrick-marino/#person",
+   "name": "Patrick Marino",
+   "jobTitle": "Owner & Digital Marketing Strategist",
+   "worksFor": {
+    "@id": "https://southcoastinbound.com/#organization"
+   },
+   "url": "https://southcoastinbound.com/patrick-marino/"
+  },
+  {
+   "@type": "Service",
+   "@id": "https://southcoastinbound.com/local-seo-services-massachusetts-rhode-island-south-coast-inbound/#service",
+   "name": "Local SEO Services",
+   "serviceType": "Local SEO",
+   "provider": {
+    "@id": "https://southcoastinbound.com/#organization"
+   },
+   "url": "https://southcoastinbound.com/local-seo-services-massachusetts-rhode-island-south-coast-inbound/",
+   "areaServed": [
+    {
+     "@type": "State",
+     "name": "Massachusetts"
+    },
+    {
+     "@type": "State",
+     "name": "Rhode Island"
+    },
+    {
+     "@type": "State",
+     "name": "Connecticut"
+    }
+   ],
+   "description": "Local SEO for businesses in Massachusetts, Rhode Island and Connecticut: Google Business Profile, reviews, website SEO, citations, real photos and local landing pages."
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://southcoastinbound.com/local-seo-services-massachusetts-rhode-island-south-coast-inbound/#webpage",
+   "url": "https://southcoastinbound.com/local-seo-services-massachusetts-rhode-island-south-coast-inbound/",
+   "name": "Local SEO Services in Massachusetts, Rhode Island & Connecticut | South Coast Inbound",
+   "about": {
+    "@id": "https://southcoastinbound.com/local-seo-services-massachusetts-rhode-island-south-coast-inbound/#service"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://southcoastinbound.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Local SEO",
+     "item": "https://southcoastinbound.com/local-seo-services-massachusetts-rhode-island-south-coast-inbound/"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What does Local SEO actually include?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "More than optimizing a Google Business Profile. We work on your website, Google Maps visibility, reviews, services, local pages, business information, third-party presence and the connections between them. The exact strategy depends on what is preventing your business from being found."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does Local SEO take?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Some changes can produce movement quickly, while competitive markets and broader geographic growth take longer. We usually look for measurable progress within the first few months and build from there. Read our guide to how long Local SEO takes."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can Local SEO help my business rank in more than one city?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, but adding city names to a Google Business Profile or creating dozens of nearly identical pages is not a strategy. We build geographic relevance through your website, location and service pages, reviews, business profiles, real-world proof and the markets you actually serve."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does my business need a physical location in every city where I want to rank?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Many contractors, home-service companies and other businesses serve customers across multiple cities without an office in each one. Geography still matters, particularly in Google Maps, so the strategy is different for a service-area business. See Local SEO for Service-Area Businesses."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What matters most for ranking in Google Maps?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The strongest evidence points to your actual location relative to the searcher, the right Google Business Profile categories, relevant services, reviews and a strong website connected to the profile. Many commonly promoted tactics, including geotagging photos or constantly posting to your profile, have little demonstrated direct ranking impact."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do Google reviews help Local SEO?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Reviews can contribute to local search performance, and customers use them to decide which businesses to trust. Review quality, quantity, recency and what customers naturally say about their experience can all matter."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does Local SEO help my business appear in ChatGPT and AI search?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, although AI search adds another layer. Clear services and geography, useful website content, reviews, business profiles, authority and third-party evidence help both traditional local search and AI systems understand and verify a business. Our AI Search Optimization work extends that foundation into ChatGPT, Gemini and other AI discovery tools."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How does South Coast Inbound measure Local SEO success?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We track the search metrics that show what is changing, including organic traffic, rankings, Maps visibility, calls and form activity. But the business outcome matters most: is the added visibility producing more qualified leads, customers and revenue?"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What kinds of businesses do you work with?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Mainly small and local businesses in Rhode Island, Massachusetts and Connecticut, including service-area businesses, professional practices, retail businesses, contractors and multi-location companies. The work is built around the services you sell and the markets where you need customers."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What makes South Coast Inbound different from other Local SEO agencies?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We are owner-led and focused on customer acquisition you can measure. We research how customers actually find businesses like yours, find where the opportunities are and build around four fundamentals: what you do, where you do it, proof that you do it well, and making that evidence available everywhere customers search. Our published case studies include increases of 1,964% in organic traffic, 680% in organic leads and 200% in organic calls."
+     }
+    }
+   ]
+  }
+ ]
+}

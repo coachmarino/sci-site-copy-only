@@ -1,0 +1,195 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": [
+    "LocalBusiness",
+    "ProfessionalService"
+   ],
+   "@id": "https://southcoastinbound.com/#organization",
+   "name": "South Coast Inbound",
+   "alternateName": "South Coast Inbound Digital Marketing Agency",
+   "url": "https://southcoastinbound.com/",
+   "logo": "https://southcoastinbound.com/wp-content/uploads/2022/10/south-coast-inbound-logo.png",
+   "image": "https://southcoastinbound.com/wp-content/uploads/2026/08/josh-and-lucas-1-2-3.jpg",
+   "description": "Owner-led Southern New England digital marketing agency helping small and local businesses get customers through Local SEO, websites, Google Ads, social media and email marketing.",
+   "telephone": "+1-508-491-8420",
+   "email": "patrick@southcoastinbound.com",
+   "priceRange": "$",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "165 Hailes Hill Rd",
+    "addressLocality": "Swansea",
+    "addressRegion": "MA",
+    "postalCode": "02777",
+    "addressCountry": "US"
+   },
+   "openingHours": [
+    "Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00"
+   ],
+   "founder": {
+    "@id": "https://southcoastinbound.com/patrick-marino/#person"
+   },
+   "sameAs": [
+    "https://www.facebook.com/southcoastinbound/"
+   ],
+   "areaServed": [
+    {
+     "@type": "State",
+     "name": "Massachusetts"
+    },
+    {
+     "@type": "State",
+     "name": "Rhode Island"
+    },
+    {
+     "@type": "State",
+     "name": "Connecticut"
+    }
+   ],
+   "knowsAbout": [
+    "Local SEO",
+    "Search engine optimization",
+    "Google Business Profile optimization",
+    "Website design",
+    "Google Ads management",
+    "Google Local Service Ads",
+    "Social media marketing",
+    "Email marketing",
+    "AI search optimization"
+   ],
+   "department": [
+    {
+     "@id": "https://southcoastinbound.com/digital-marketing-agency-in-providence/#office"
+    }
+   ]
+  },
+  {
+   "@type": "Person",
+   "@id": "https://southcoastinbound.com/patrick-marino/#person",
+   "name": "Patrick Marino",
+   "jobTitle": "Owner & Digital Marketing Strategist",
+   "worksFor": {
+    "@id": "https://southcoastinbound.com/#organization"
+   },
+   "url": "https://southcoastinbound.com/patrick-marino/"
+  },
+  {
+   "@type": [
+    "LocalBusiness",
+    "ProfessionalService"
+   ],
+   "@id": "https://southcoastinbound.com/digital-marketing-agency-in-providence/#office",
+   "name": "South Coast Inbound, Providence",
+   "parentOrganization": {
+    "@id": "https://southcoastinbound.com/#organization"
+   },
+   "url": "https://southcoastinbound.com/digital-marketing-agency-in-providence/",
+   "telephone": "+1-401-400-2349",
+   "image": "https://southcoastinbound.com/wp-content/uploads/2026/08/Patrick-Marino-Rhode-Island-Marketer.jpg",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "594 Charles St #1042",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02904",
+    "addressCountry": "US"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Providence"
+    },
+    {
+     "@type": "State",
+     "name": "Rhode Island"
+    }
+   ]
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://southcoastinbound.com/digital-marketing-agency-in-providence/#webpage",
+   "url": "https://southcoastinbound.com/digital-marketing-agency-in-providence/",
+   "name": "Providence, RI Digital Marketing Agency for Small & Local Businesses | South Coast Inbound",
+   "about": {
+    "@id": "https://southcoastinbound.com/digital-marketing-agency-in-providence/#office"
+   }
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://southcoastinbound.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Service Area",
+     "item": "https://southcoastinbound.com/service-area/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "Providence, RI",
+     "item": "https://southcoastinbound.com/digital-marketing-agency-in-providence/"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What does a digital marketing agency do for a small business?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It helps your business get found, generate leads and turn more of those leads into customers. At South Coast Inbound that can include Local SEO, Google Ads, website design, social media, email marketing and AI-powered marketing tools, depending on what your business actually needs."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Should my Providence business invest in Local SEO, Google Ads, or both?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It depends on your goals, competition and how quickly you need results. Local SEO builds stronger long-term search traffic, while Google Ads can generate leads faster. For many Providence businesses the best strategy is a mix of both, with budget and effort adjusted based on what produces the best return."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much does digital marketing cost for a small business?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "There is no one-size-fits-all number. Cost depends on the services you need, your competition, your goals and how aggressively you want to grow. We build a plan around the opportunities most likely to generate leads and revenue instead of forcing every business into the same package."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does it take for digital marketing to start generating leads?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Some channels work quickly. Google Ads and certain website improvements can generate leads almost immediately, while Local SEO, organic search, email and social media usually build momentum over time. We track performance from the start so we can see what is working and adjust quickly."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you work with businesses outside Providence?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. We work with businesses throughout Rhode Island, Southeastern Massachusetts, Connecticut and other markets where we are a good fit. Our focus is small and local businesses that want more leads, more customers and a strategy built around measurable results."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where is your Providence office?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "594 Charles St #1042, Providence, RI 02904. Call us at 401.400.2349. We also have offices in Swansea, MA and Warren, RI."
+     }
+    }
+   ]
+  }
+ ]
+}
