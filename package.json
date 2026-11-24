@@ -1,0 +1,6 @@
+{
+  "name": "sci-site-copy-only",
+  "private": true,
+  "scripts": { "build": "node build.mjs" },
+  "engines": { "node": ">=18" }
+}
