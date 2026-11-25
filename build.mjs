@@ -21,7 +21,7 @@ function page(file) {
   const meta = JSON.parse(m[1]);
   let body = raw.slice(m[0].length).replaceAll("{{REVIEWS}}", reviews);
   const schema = readFileSync(join(SRC, "schema", meta.schema), "utf8");
-  const canonical = LIVE + meta.path;
+  const canonical = LIVE + (meta.canonical || meta.path);
   const html = `<!doctype html>
 <html lang="en">
 <head>

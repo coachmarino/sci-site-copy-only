@@ -1,0 +1,192 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": [
+    "LocalBusiness",
+    "ProfessionalService"
+   ],
+   "@id": "https://southcoastinbound.com/#organization",
+   "name": "South Coast Inbound",
+   "alternateName": "South Coast Inbound Digital Marketing Agency",
+   "url": "https://southcoastinbound.com/",
+   "logo": "https://southcoastinbound.com/wp-content/uploads/2022/10/south-coast-inbound-logo.png",
+   "image": "https://southcoastinbound.com/wp-content/uploads/2026/08/josh-and-lucas-1-2-3.jpg",
+   "description": "Owner-led Southern New England digital marketing agency helping small and local businesses get customers through Local SEO, websites, Google Ads, social media and email marketing.",
+   "telephone": "+1-508-491-8420",
+   "email": "patrick@southcoastinbound.com",
+   "priceRange": "$",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "165 Hailes Hill Rd",
+    "addressLocality": "Swansea",
+    "addressRegion": "MA",
+    "postalCode": "02777",
+    "addressCountry": "US"
+   },
+   "openingHours": [
+    "Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00"
+   ],
+   "founder": {
+    "@id": "https://southcoastinbound.com/patrick-marino/#person"
+   },
+   "sameAs": [
+    "https://www.facebook.com/southcoastinbound/"
+   ],
+   "areaServed": [
+    {
+     "@type": "State",
+     "name": "Massachusetts"
+    },
+    {
+     "@type": "State",
+     "name": "Rhode Island"
+    },
+    {
+     "@type": "State",
+     "name": "Connecticut"
+    }
+   ],
+   "knowsAbout": [
+    "Local SEO",
+    "Search engine optimization",
+    "Google Business Profile optimization",
+    "Website design",
+    "Google Ads management",
+    "Google Local Service Ads",
+    "Social media marketing",
+    "Email marketing",
+    "AI search optimization"
+   ],
+   "department": [
+    {
+     "@id": "https://southcoastinbound.com/digital-marketing-agency-in-providence/#office"
+    }
+   ]
+  },
+  {
+   "@type": "Person",
+   "@id": "https://southcoastinbound.com/patrick-marino/#person",
+   "name": "Patrick Marino",
+   "jobTitle": "Owner & Digital Marketing Strategist",
+   "worksFor": {
+    "@id": "https://southcoastinbound.com/#organization"
+   },
+   "url": "https://southcoastinbound.com/patrick-marino/"
+  },
+  {
+   "@type": [
+    "LocalBusiness",
+    "ProfessionalService"
+   ],
+   "@id": "https://southcoastinbound.com/digital-marketing-agency-in-providence/#office",
+   "name": "South Coast Inbound, Providence",
+   "parentOrganization": {
+    "@id": "https://southcoastinbound.com/#organization"
+   },
+   "url": "https://southcoastinbound.com/digital-marketing-agency-in-providence/",
+   "telephone": "+1-401-400-2349",
+   "image": "https://southcoastinbound.com/wp-content/uploads/2026/08/Patrick-Marino-Rhode-Island-Marketer.jpg",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "594 Charles St #1042",
+    "addressLocality": "Providence",
+    "addressRegion": "RI",
+    "postalCode": "02904",
+    "addressCountry": "US"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Providence"
+    },
+    {
+     "@type": "State",
+     "name": "Rhode Island"
+    }
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://southcoastinbound.com/#website",
+   "url": "https://southcoastinbound.com/",
+   "name": "South Coast Inbound",
+   "publisher": {
+    "@id": "https://southcoastinbound.com/#organization"
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://southcoastinbound.com/rewrite/#webpage",
+   "url": "https://southcoastinbound.com/rewrite/",
+   "name": "Southern New England Local SEO & Digital Marketing Agency | South Coast Inbound",
+   "about": {
+    "@id": "https://southcoastinbound.com/#organization"
+   },
+   "isPartOf": {
+    "@id": "https://southcoastinbound.com/#website"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What does South Coast Inbound do?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "South Coast Inbound is a Southern New England digital marketing agency. We specialize in Local SEO, website design, Google Ads, social media marketing, email marketing and integrated digital marketing for small and medium-sized businesses. Everything we do is aimed at helping you get found, generate qualified leads and turn more of those leads into customers."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Where does South Coast Inbound work?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We work with businesses throughout Massachusetts, Rhode Island and Connecticut, with a focus on Southern New England, including Providence, Newport, Fall River, New Bedford, New London and the surrounding communities. Our offices are in Swansea, MA, Warren, RI and Providence, RI."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is South Coast Inbound only an SEO company?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Local SEO is one of our core specialties, but we also provide website design, Google Ads, social media marketing, email marketing, AI marketing and overall digital marketing strategy. The channels we use depend on your business, your market and where your best growth opportunities are."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do you measure marketing results?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "By real business outcomes. Depending on the campaign, that includes qualified leads, phone calls, booked opportunities, cost per lead, sales, revenue, ROI and ROAS. We also track rankings and traffic so we can see what's changing and why. See our recent small business results."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does digital marketing cost?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "It depends on the services you need, your competition, your market, the marketing assets you already have and your growth goals. We take on both focused one-time projects and ongoing campaigns, and we always explain pricing clearly before you start."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What happens after I schedule a consultation?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We'll talk about your business, your current marketing, your customers, your goals and the problems you're trying to solve. From there, we'll identify your strongest opportunities and decide together whether South Coast Inbound is a good fit."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you require long-term contracts?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not always. Terms depend on the service and scope. Some projects are one-time engagements, while ongoing services may have different terms depending on the campaign and what we manage for you. We explain the commitment, pricing and expectations before you start, so there are never any surprises."
+     }
+    }
+   ]
+  }
+ ]
+}
